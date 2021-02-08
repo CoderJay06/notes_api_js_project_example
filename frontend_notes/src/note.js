@@ -3,7 +3,7 @@ class Note {
         this.id = data.id;
         this.title = data.title;
         this.content = data.content;
-        Note.all.push(this)
+        Note.all.push(this);
     }
 
     renderListItem() {
