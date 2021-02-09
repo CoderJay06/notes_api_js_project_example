@@ -35,6 +35,11 @@ class Note {
         </form>
        `;
     }
+
+    update({ title, content }) {
+       this.title = title;
+       this.content = content;
+    }
 }
 
 Note.all = [];
